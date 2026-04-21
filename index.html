@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fun With Science</title>
+<meta name="description" content="Rigorous, data-first critiques of fringe scientific and pseudoscientific claims. Every assertion checked against published data.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fun With Science">
+<meta property="og:description" content="Rigorous, data-first critiques of fringe scientific and pseudoscientific claims.">
+<meta property="og:url" content="https://funwithscience.net/">
+<link rel="canonical" href="https://funwithscience.net/">
+
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fafaf7;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --accent: #1e4d8b;
+    --border: #e3e3de;
+    --card-bg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1014;
+      --fg: #eaeaea;
+      --muted: #9a9a9a;
+      --accent: #7ab8ff;
+      --border: #262a32;
+      --card-bg: #161a21;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 3rem;
+  }
+  header { margin-bottom: 2.5rem; }
+  h1 {
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    margin: 0 0 0.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  section { margin-top: 2.5rem; }
+  h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-weight: 600;
+    margin: 0 0 1rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  }
+  .project {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1.25rem 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .project:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .project h3 {
+    margin: 0 0 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .project p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.96rem;
+  }
+  .about {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .about p { margin: 0 0 0.75rem; }
+  .about a { color: var(--accent); }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Fun With Science</h1>
+  <p class="tagline">Rigorous, data-first critiques of fringe scientific claims.</p>
+</header>
+
+<section>
+  <h2>Active Projects</h2>
+
+  <a class="project" href="/dome-model-review/">
+    <h3>Dome Model Review &rarr;</h3>
+    <p>A scientific critical review of the &ldquo;Ovoid Cavity Cosmological Model&rdquo; &mdash; a flat-earth dome cosmology that claims 69 confirmed predictions. Every claim checked against published data.</p>
+  </a>
+</section>
+
+<section class="about">
+  <p>These reviews test specific empirical claims against published scientific data. We credit predictions that are genuinely prospective and verified; we flag predictions that are post-hoc relabels of already-known physics; and we separate model testability from rhetorical confidence.</p>
+  <p>Every analysis is open-source and reproducible. Source data, build pipelines, and review methodology are public.</p>
+</section>
+
+<footer>
+  <a href="https://github.com/funwithscience-org">github.com/funwithscience-org</a>
+</footer>
+
+</div>
+</body>
+</html>
