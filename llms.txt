@@ -1,0 +1,17 @@
+# Fun With Science
+
+> Rigorous, data-first critiques of fringe scientific and pseudoscientific claims. Every assertion checked against published data.
+
+## Projects
+
+- [Dome Model Review](https://funwithscience.net/dome-model-review/): A scientific critical review of the "Ovoid Cavity Cosmological Model" (ECM) — a flat-earth dome cosmology that claims 69 confirmed predictions. Every claim is evaluated against published data and against the model's own internal consistency.
+  - Detailed LLM index: https://funwithscience.net/dome-model-review/llms.txt
+  - Sitemap: https://funwithscience.net/dome-model-review/sitemap.xml
+
+## About
+
+funwithscience.net publishes rigorous, reproducible critiques of fringe scientific claims. Every analysis is open-source with public source data, build pipelines, and methodology. The intent is to separate genuinely predictive claims from post-hoc relabels of already-established physics, and to do so in a way an independent reviewer can audit end-to-end.
+
+## Source
+
+Source code and issue tracker: https://github.com/funwithscience-org
