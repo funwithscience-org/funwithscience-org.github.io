@@ -8,6 +8,8 @@
   - Detailed LLM index: https://funwithscience.net/dome-model-review/llms.txt
   - Sitemap: https://funwithscience.net/dome-model-review/sitemap.xml
 
+- [Kell Solar Measurement Analysis](https://funwithscience.net/kells-analysis/): A measurement-by-measurement check of Corey Kell's "Operation Resolute Time" (ORT 2020, Kabul) and "Operation North American Sun" (ONAS 21-23, Fayetteville) solar-elevation datasets — a flat-earth "45° limit" claim tested against standard globe-model solar geometry across 133 readings.
+
 ## About
 
 funwithscience.net publishes rigorous, reproducible critiques of fringe scientific claims. Every analysis is open-source with public source data, build pipelines, and methodology. The intent is to separate genuinely predictive claims from post-hoc relabels of already-established physics, and to do so in a way an independent reviewer can audit end-to-end.
