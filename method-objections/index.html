@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Objections to This Site's Method, Answered | FunWithScience</title>
+<meta name="description" content="The recurring objections to review-by-audit — circular code, math isn't physics, simulations aren't reality, anonymity — answered once, for every review on this site.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FunWithScience">
+<meta property="og:title" content="Objections to This Site's Method, Answered">
+<meta property="og:description" content="Circular code, Ptolemy, keyboard physics, and anonymity — the four objections every reviewed author eventually raises, answered as a class.">
+<meta property="og:url" content="https://funwithscience.net/method-objections/">
+<link rel="canonical" href="https://funwithscience.net/method-objections/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F4F0; --card:#FBFBF8; --ink:#1B2433; --navy:#24405E;
+    --burgundy:#79212E; --brass:#8A661C; --grey:#5C6470; --rule:#D9DAD3;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --sans:'IBM Plex Sans',system-ui,sans-serif;
+    --disp:'Fraunces',Georgia,serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:780px;margin:0 auto;padding:0 24px}
+  a{color:var(--navy)}
+  header{border-bottom:2px solid var(--ink);padding:56px 0 40px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--burgundy);margin-bottom:18px}
+  .eyebrow a{color:inherit;text-decoration:none}
+  h1{font-family:var(--disp);font-weight:700;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.01em;max-width:20ch}
+  .sub{margin-top:20px;font-size:18px;color:var(--grey);max-width:58ch}
+  main{padding:8px 0 40px}
+  section{padding:38px 0;border-bottom:1px solid var(--rule)}
+  h2{font-family:var(--disp);font-weight:600;font-size:clamp(22px,3vw,28px);line-height:1.18;margin-bottom:14px}
+  p{margin:0 0 14px;max-width:66ch}
+  p:last-child{margin-bottom:0}
+  .kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--grey);margin-bottom:10px}
+  .obj{font-size:15.5px;color:var(--grey);border-left:2px solid var(--rule);padding-left:14px;margin:0 0 16px;font-style:italic}
+  .note{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--navy);padding:18px 20px;margin:18px 0 0;font-size:15.5px}
+  .note .kicker{margin-bottom:6px}
+  footer{padding:34px 0 60px;font-family:var(--mono);font-size:12.5px;color:var(--grey)}
+  .vsep{color:var(--rule);margin:0 8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow"><a href="/">← FunWithScience</a> · Review Method</div>
+    <h1>Objections to This Site's Method, Answered</h1>
+    <p class="sub">Every author whose work is reviewed here eventually raises some version of the same four objections. They deserve serious answers — once, in public, for all reviews at the same time. This page is those answers. It is linked from every review section and applies to all of them equally.</p>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section id="what-review-is">
+  <div class="kicker">First · What a Review Is</div>
+  <h2>Audit before replication</h2>
+  <p>The first stage of peer review — at any journal, in any field — is not replication. It is an audit of the submission itself: is it internally consistent, does it honor its own source data, and does it square with the existing public record of measurement? Replication comes later, for work that survives the audit. The reviews on this site perform that first stage, under the fixed verdict categories in the <a href="/dome-model-review/#evaluation-guide">Evaluation Guide</a>, and they do not assume the standard model is correct. A standing model can be legitimately challenged by three honest routes: new data it cannot accommodate; a hole in it that existing data exposes; or an inconsistency in its own structure — the route that produced special relativity, which required essentially no new observations. Every review checks the submitted work against all three. Most submissions reviewed here provide none: no measurements, holes that close on contact with the cited literature, and internal inconsistencies that belong to the submission rather than to the standard model.</p>
+</section>
+
+<section id="circular">
+  <div class="kicker">Objection 1</div>
+  <h2>“Your code assumes the mainstream model, so your conclusions are circular.”</h2>
+  <p class="obj">The site "disproves" experiments by running code built on mainstream libraries and constants — begging the question.</p>
+  <p>Most reviews on this site contain no code at all; their evidence is the published physical record — satellite free-fall comparisons, torsion balances, radiosonde soundings, drilling outcomes — cited to journal, volume, and page. Where code does appear (solar position in the Kell analysis, geometry in the dome review), the libraries in question are not assumptions of a contested model. They are ephemeris and geometry implementations that are validated continuously against direct observation: the same computations produce the sunrise times in every newspaper, the tide tables in every port, and eclipse predictions published years in advance and then watched, on the advertised second, by millions of people with their own eyes. A tool checked against reality that often is not a premise; it is a ruler. Using a validated ruler to measure a claim is the opposite of circularity — circularity would be assuming the contested conclusion, which the audit method never requires: no model of the Earth is needed to notice that a submission contradicts itself, or discards its own data.</p>
+</section>
+
+<section id="ptolemy">
+  <div class="kicker">Objection 2</div>
+  <h2>“Math that predicts correctly can still serve a false model — see Ptolemy.”</h2>
+  <p class="obj">Epicycles predicted planetary positions precisely, and the model was wrong; so predictive formulas prove nothing about physical truth.</p>
+  <p>Correct — and it is precisely why this site's method privileges the two things that killed epicycles: internal consistency and <em>differential</em> prediction. Ptolemy fell because a rival model predicted things epicycles could not — the phases of Venus, ultimately stellar aberration and parallax — not because someone declared prediction worthless. The lesson of Ptolemy is not "distrust math"; it is "demand that models put novel numbers on the table and take the risk of being wrong." This site takes that lesson literally: its own predictions are pre-registered before the event, cryptographically time-stamped, with pass and fail criteria declared in advance. The standing question for any reviewed framework is the same one heliocentrism answered: what do you predict that the standard model does not? A framework that has never risked a number has not yet entered the arena Ptolemy lost in.</p>
+</section>
+
+<section id="keyboard">
+  <div class="kicker">Objection 3</div>
+  <h2>“You can't debunk physical observations from behind a keyboard — critics must replicate physically.”</h2>
+  <p class="obj">Simulations are bound by programmer assumptions; the burden of physical proof is on the critic.</p>
+  <p>This mistakes the review stage for the replication stage — see the top of this page — but grant the demand on its own terms, because it has in fact been met. The physical evidence cited in these reviews <em>is</em> replication: performed by the field, in hardware, repeatedly, over decades — masses dropped in orbital free fall, gravimeters operated inside shielding, balloons flown through the open atmosphere twice daily at hundreds of stations. Citing a replicated experiment is how science transmits replication; no reviewer at any journal in history has been required to personally rebuild the apparatus of every paper they evaluate. And the demand, as usually raised, is asymmetric: it is applied to the critic with great force and to the submission not at all. A body of work containing zero measurements of anything cannot coherently insist that its reviewers produce measurements before commenting on its internal consistency.</p>
+</section>
+
+<section id="anonymity">
+  <div class="kicker">Objection 4</div>
+  <h2>“Anonymous work with no institutional backing carries no scientific weight.”</h2>
+  <p class="obj">Without a verified name and institutional authority, a review is just an opinion with a coding font.</p>
+  <p>Science's central design feature is that correctness does not depend on who is speaking — that is what citations are for. Every factual claim on this site carries a reference a reader can check without trusting us, believing us, or knowing our names: the argument's weight is in the verifiable record, which is exactly where a scientific argument's weight is supposed to live. Judging a claim by its author's credentials rather than its checkable content is the textbook genetic fallacy — and it is also, historically, the argument that would have discarded the patent clerk. That said, the maintainer of this site engages under his real name in every public exchange, and the corrections policy is enforced in public, in version history, on every page. We would also gently note the shape this objection tends to take: it is most often raised by anonymous accounts, in defense of work whose stated thesis is that institutional authority corrupts science. An objection that disqualifies its own author twice over is welcome here — it will simply be logged, like everything else.</p>
+</section>
+
+<section id="ai">
+  <div class="kicker">Objection 5</div>
+  <h2>“The reviews are AI-generated, so they don't count.”</h2>
+  <p class="obj">Content produced with AI assistance — or hosted on platforms that offer AI tools — is not legitimate review.</p>
+  <p>An argument's validity does not depend on the keyboard it was typed on, and it never has: the objection would apply equally to spell-checkers, calculators, and typesetting software. What matters is whether a human directs the work, verifies the sources, and stands behind the result — which is the standard here: every citation on this site resolves to a real, human-checkable publication, every verdict follows the published <a href="/dome-model-review/#evaluation-guide">taxonomy</a>, and errors are corrected under a named maintainer's supervision, in public. AI assistance is a tool in that pipeline, not its author. (The variant of this objection that points at a hosting platform's AI marketing — GitHub offers Copilot, therefore files on GitHub are AI-generated — is a genetic fallacy about infrastructure: by the same logic, any content posted to a platform with AI features would be disqualified, including the objection itself, wherever it was posted.) The honest question about any document, wherever it came from, is the one this whole page keeps returning to: are its claims specific, checkable, and checked? That question has an answer for every review here. It is available for any critique of them, too.</p>
+</section>
+
+<section id="standing">
+  <div class="kicker">Always</div>
+  <h2>The standing commitments</h2>
+  <p>Every review on this site operates under the same public commitments: claims are cited to sources any reader can verify; verdicts follow a fixed, published taxonomy with a primary-issue rule; reviewed authors get a standing invitation to respond to any specific claim, with responses linked verbatim; and demonstrated factual errors are corrected on the page, visibly, with credit. These commitments are the answer to every objection above, in one sentence: don't trust us — check us.</p>
+</section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    FunWithScience · funwithscience.net <span class="vsep">|</span> @PhysicsUnifier <span class="vsep">|</span> Every claim on this page is checkable. Check it.
+  </div>
+</footer>
+
+</body>
+</html>
