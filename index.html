@@ -94,6 +94,27 @@
     color: var(--muted);
     font-size: 0.96rem;
   }
+  .detail { margin-bottom: 2.25rem; }
+  .detail:last-child { margin-bottom: 0; }
+  .detail h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  .detail h3 a { color: var(--accent); text-decoration: none; }
+  .detail h3 a:hover { text-decoration: underline; }
+  .detail p { margin: 0 0 0.75rem; font-size: 1rem; }
+  .detail p:last-of-type { margin-bottom: 0.5rem; }
+  .refs {
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin: 0.4rem 0 0;
+  }
+  .refs strong { font-weight: 600; color: var(--fg); opacity: 0.8; }
+  .refs a { color: var(--accent); text-decoration: none; }
+  .refs a:hover { text-decoration: underline; }
   .about {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -146,10 +167,42 @@
   </a>
 </section>
 
+<section>
+  <h2>The Reviews in Depth</h2>
+
+  <div class="detail">
+    <h3><a href="/dome-model-review/">Dome Model Review</a></h3>
+    <p>The &ldquo;Ovoid Cavity Cosmological Model&rdquo; is a flat-earth dome cosmology that advertises 69 &ldquo;confirmed predictions.&rdquo; The review evaluates every one against the published record and against the model&rsquo;s own internal geometry. The recurring finding is that none of the 69 is uniquely explained by the dome: each turns out to be standard physics relabeled, a post-hoc curve fit, or a claim the model&rsquo;s own equations contradict.</p>
+    <p>Worked examples run through the analysis. The model places Polaris at 8,537&nbsp;km, roughly ten thousand times closer than the distance Gaia&rsquo;s parallax measurements establish. Its Schumann-resonance &ldquo;prediction&rdquo; uses the textbook uniform-cavity formula, which contradicts the exponentially varying firmament the model itself defines. It reproduces the sun&rsquo;s elevation using the globe&rsquo;s 23.45&deg; axial tilt and borrows WGS84 coordinates &mdash; the globe&rsquo;s own reference frame &mdash; while asserting the earth is flat. And satellite navigation requires spacecraft orbiting well above the model&rsquo;s stated firmament height. The full write-up is data-driven, reproducible, and credits genuine sophistication where the model shows it before explaining why the claims still fail.</p>
+    <p class="refs"><strong>Checked against:</strong> <a href="https://eclipse.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA Eclipse</a> &middot; <a href="https://www.ncei.noaa.gov/products/world-magnetic-model" target="_blank" rel="noopener">NOAA World Magnetic Model</a> &middot; <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia" target="_blank" rel="noopener">ESA Gaia</a></p>
+  </div>
+
+  <div class="detail">
+    <h3><a href="/kells-analysis/">Kell Solar Measurement Analysis</a></h3>
+    <p>Corey Kell&rsquo;s &ldquo;Operation Resolute Time&rdquo; (2020) and &ldquo;Operation North American Sun&rdquo; (2021&ndash;23) present solar-elevation readings &mdash; 133 of them, from Kabul and Fayetteville &mdash; as evidence for a flat-earth &ldquo;45&deg; limit&rdquo; on the sun&rsquo;s angle. The review recomputes the expected solar elevation for every reading using standard globe-model solar geometry and compares it to what Kell recorded.</p>
+    <p>The measurements line up with the globe model, not the flat-earth interpretation, and the &ldquo;45&deg; limit&rdquo; is never applied symmetrically to the flat-earth case it is meant to support. The analysis is transparent about method: the same solar-position mathematics that powers navigation and timekeeping worldwide is applied to Kell&rsquo;s own numbers, reading by reading, so the conclusion can be reproduced from the published data.</p>
+    <p class="refs"><strong>Checked against:</strong> <a href="https://gml.noaa.gov/grad/solcalc/" target="_blank" rel="noopener">NOAA Solar Calculator</a> &middot; <a href="https://aa.usno.navy.mil/" target="_blank" rel="noopener">US Naval Observatory</a></p>
+  </div>
+
+  <div class="detail">
+    <h3><a href="/space-compression-model-review/">Space Compression Model Review</a></h3>
+    <p>&ldquo;Photonic Projection of Atomic Structure and a Unified Theory of Space Compression Model&rdquo; is a 272-page manuscript, revised across twelve versions, whose central claim is that an ordinary consumer camera photographs atomic structure &mdash; and that the speed of light can be derived from a 1.0&thinsp;mm &ldquo;universal constant.&rdquo;</p>
+    <p>The review works the physics directly. The Rayleigh diffraction limit puts the finest detail a visible-light camera can resolve many orders of magnitude coarser than atomic spacing, so the photographs cannot show what the manuscript says they show. The arithmetic behind the 1.0&thinsp;mm constant does not close, and the speed of light is a <em>defined</em> value in the International System of Units &mdash; fixed by convention, not something a model derives. Verdict: reject, with each step of the reasoning laid out against the measured and defined values.</p>
+    <p class="refs"><strong>Checked against:</strong> <a href="https://physics.nist.gov/cuu/Constants/" target="_blank" rel="noopener">NIST / CODATA Constants</a> &middot; <a href="https://www.bipm.org/en/measurement-units" target="_blank" rel="noopener">BIPM &mdash; the SI</a></p>
+  </div>
+
+  <div class="detail">
+    <h3><a href="/azimutha/">Azimutha.FE Reviews</a></h3>
+    <p>The Azimutha.FE TikTok account publishes critiques of terrestrial and physical measurement standards formatted to look like research papers. This is an ongoing series of reviews, one per document, spanning topics from Kepler&rsquo;s laws and gyroscopic precession to the Cavendish gravitational constant, atomic-clock timekeeping, and gravimetry.</p>
+    <p>Each review checks the specific empirical claim against primary metrology and physics sources rather than against rhetoric &mdash; separating what the measurement standards actually say from how they are characterized. Because the source documents cite no third-party review of their own, the value added here is exactly that independent check, done in public with the underlying numbers shown.</p>
+    <p class="refs"><strong>Checked against:</strong> <a href="https://physics.nist.gov/cuu/Constants/" target="_blank" rel="noopener">NIST / CODATA Constants</a> &middot; <a href="https://www.bipm.org/en/measurement-units" target="_blank" rel="noopener">BIPM &mdash; the SI</a></p>
+  </div>
+</section>
+
 <section class="about">
   <p>These reviews test specific empirical claims against published scientific data. We credit predictions that are genuinely prospective and verified; we flag predictions that are post-hoc relabels of already-known physics; and we separate model testability from rhetorical confidence.</p>
-  <p>Every analysis is open-source and reproducible. Source data, build pipelines, and review methodology are public.</p>
-  <p><a href="/method-objections/">Review method: objections answered</a> — the recurring challenges to review-by-audit, addressed once for every review on this site.</p>
+  <p>Every analysis is open-source and reproducible. Source data, build pipelines, and review methodology are public, and each review links its claims to authoritative primary sources &mdash; NASA, NOAA, ESA, NIST, the US Naval Observatory, and the BIPM among them.</p>
+  <p><a href="/method-objections/">Review method: objections answered</a> &mdash; the recurring challenges to review-by-audit, addressed once for every review on this site.</p>
 </section>
 
 <footer>
