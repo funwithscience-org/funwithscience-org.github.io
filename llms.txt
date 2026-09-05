@@ -10,6 +10,8 @@
 
 - [Kell Solar Measurement Analysis](https://funwithscience.net/kells-analysis/): A measurement-by-measurement check of Corey Kell's "Operation Resolute Time" (ORT 2020, Kabul) and "Operation North American Sun" (ONAS 21-23, Fayetteville) solar-elevation datasets — a flat-earth "45° limit" claim tested against standard globe-model solar geometry across 133 readings.
 
+- [Globe Deconstruction](https://funwithscience.net/globe-deconstruction/): A claim-by-claim review of Levi Miller's prerelease book "Globe Deconstruction?" and the three claims at shapedebate.com — twenty-four checkable claims graded as stated, each page conceding what is right, re-deriving every number from public data, and ending with tests that could go against it. In progress: 18 of 24 answered.
+
 ## Tools
 
 - [Reverse Refraction Solver](https://funwithscience.net/refraction-solver/): A curvature calculator inverted — from observer height, distance, target height, and observed visible height it solves the implied refraction coefficient and required temperature gradient on a globe and on a flat plane, with uncertainty propagation and reference regime bands (normal marine, minor/major looming, duct/Fata Morgana).
