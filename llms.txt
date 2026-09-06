@@ -18,7 +18,7 @@
 
 ## About
 
-funwithscience.net publishes rigorous, reproducible critiques of fringe scientific claims. Every analysis is open-source with public source data, build pipelines, and methodology. The intent is to separate genuinely predictive claims from post-hoc relabels of already-established physics, and to do so in a way an independent reviewer can audit end-to-end.
+funwithscience.net publishes rigorous, reproducible critiques of fringe scientific claims. The data behind each analysis is publicly available and the scripts that compute it are published alongside the pages. The intent is to separate genuinely predictive claims from post-hoc relabels of already-established physics, and to do so in a way an independent reviewer can audit end-to-end.
 
 ## Source
 
