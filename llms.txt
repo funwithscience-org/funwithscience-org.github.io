@@ -15,6 +15,7 @@
 ## Tools
 
 - [Reverse Refraction Solver](https://funwithscience.net/refraction-solver/): A curvature calculator inverted — from observer height, distance, target height, and observed visible height it solves the implied refraction coefficient and required temperature gradient on a globe and on a flat plane, with uncertainty propagation and reference regime bands (normal marine, minor/major looming, duct/Fata Morgana).
+- [Two Disks, One Sky](https://funwithscience.net/star-trails/): Interactive star-trail simulator for the flat-earth two-disk dome model — reproduces the outside-camera counter-rotation trick, shows the overlap that grows with disk radius, and renders a virtual Tenerife panorama (28.3° N) beside a real long-exposure photograph for comparison against a single-axis globe sky.
 
 ## About
 
