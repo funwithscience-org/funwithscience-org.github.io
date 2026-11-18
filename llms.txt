@@ -12,6 +12,8 @@
 
 - [Globe Deconstruction](https://funwithscience.net/globe-deconstruction/): A claim-by-claim review of Levi Miller's prerelease book "Globe Deconstruction?" and the three claims at shapedebate.com — twenty-four checkable claims graded as stated, each page conceding what is right, re-deriving every number from public data, and ending with tests that could go against it. In progress: 18 of 24 answered.
 
+- [Inside the Flat Earth App](https://funwithscience.net/flat-earth-pro-analysis/): A code-level look at the "Flat Earth" mobile app (free Android build, November 2026). Its sky view places stars with the standard equatorial-to-horizontal transform using observer latitude; its flat map shades day and night with per-point solar altitude on a sphere and is one of several projections of the same longitude/latitude data. Includes short code excerpts and globe-vs-literal-map predictions. In progress: screen-recorded tests pending.
+
 ## Tools
 
 - [Reverse Refraction Solver](https://funwithscience.net/refraction-solver/): A curvature calculator inverted — from observer height, distance, target height, and observed visible height it solves the implied refraction coefficient and required temperature gradient on a globe and on a flat plane, with uncertainty propagation and reference regime bands (normal marine, minor/major looming, duct/Fata Morgana).
