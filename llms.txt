@@ -18,6 +18,7 @@
 
 - [Reverse Refraction Solver](https://funwithscience.net/refraction-solver/): A curvature calculator inverted — from observer height, distance, target height, and observed visible height it solves the implied refraction coefficient and required temperature gradient on a globe and on a flat plane, with uncertainty propagation and reference regime bands (normal marine, minor/major looming, duct/Fata Morgana).
 - [Two Disks, One Sky](https://funwithscience.net/star-trails/): Interactive star-trail simulator for the flat-earth two-disk dome model — reproduces the outside-camera counter-rotation trick, shows the overlap that grows with disk radius, and renders a virtual Tenerife panorama (28.3° N) beside a real long-exposure photograph for comparison against a single-axis globe sky.
+- [Does Gas Need a Container?](https://funwithscience.net/gas-containment/): Interactive gas containment simulator for the flat-earth claim that the atmosphere needs a dome — a particle model in real units that sets gas pressure against gravity in four cases: the bromine-into-vacuum two-bulb demo (with a second-law entropy ledger), a sealed tank from 50 cm to 100 km, a heavy gas in an open tank, and an open column of air with and without walls, a dome, or gravity, compared with the 1976 US Standard Atmosphere and a radiosonde sounding.
 
 ## About
 
